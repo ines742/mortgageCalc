@@ -2,32 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.title-style{
+    padding: 30px 0; /* Adjust padding  */
+    font-size: 36px; 
+    font-weight: bold; /* Make the font bold */
+    color: rgb(73, 137, 226); /* Set custom color */
+    text-align: center; 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.input-title{
+    font-size: 16px; 
+    font-weight: bold; /* Make the font bold */
+    color: rgb(73, 137, 226);
+}
+
+.input-numbers{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: 2px solid rgb(73, 137, 226);
+    border-radius: 5px;
+}
+
+.div label{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.results {
+    margin-top: 20px; /* Add margin to separate from other elements */
+    color: #007bff; /* Use the same blue color */
+    font-weight: bold; /* Make the text bold */
   }
+  
+.calculate{
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid rgb(73, 137, 226); /* Adjust border */
+  border-radius: 5px;
+  background-color: transparent; /* Set background color to transparent */
+  color: black; /* Set text color */
+  font-size: 16px; /* Set font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */  
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: bold; /* Make the font bold */
+  color: rgb(73, 137, 226);
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.calculate:hover {
+    background-color: rgb(73, 137, 226); /* Change background color on hover */
+    color: white; /* Change text color on hover */
   }
-}
