@@ -4,6 +4,8 @@
 ## Introduction
 My Mortgage Calculator is a simple, responsive web app for estimating mortgage payments and understanding how principal, interest, and term affect monthly costs. It’s built with Next.js and Tailwind CSS for a fast, modern UI.
 
+![image alt](https://github.com/ines742/mortgageCalc/blob/1393dd68096d7100afc47d8b56f4c23270ce600a/mortagage.PNG)
+
 ## Technologies / Tech Stack
 - Next.js 14
 - React 18
