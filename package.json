@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-mortgage-calculator",
+=======
+  "name": "mortgage-cal",
+>>>>>>> 07a2bcb8c519ce5f95f41c1d86dcec3420e1487e
   "version": "0.1.0",
   "private": true,
   "scripts": {
